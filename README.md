@@ -8,7 +8,7 @@ Open `index.html` in a modern browser, or serve the folder with `python -m http.
 2. In Settings → Pages, choose Deploy from a branch, select `main`, `/ (root)`, and Save.
 3. Visit the published site. On Android Chrome, use the browser menu to install or add it to the home screen if available.
 
-## Core flow
+## Core flows
 - Add alternatives in Tasks: link, Android deep link, local PDF, or offline task. Choose self-confirmation or a minimum timer plus confirmation.
 - Add distractions in Block list. Choose their individual reward duration.
 - Tap Open on a distraction in Today, or use Try the blocking screen. Start an alternative and open its resource. Return and confirm completion (after the minimum timer if applicable).
