@@ -6,16 +6,7 @@ Open index.html in a browser or serve the folder on localhost. For Android and l
 ## New blocking rules
 Edit a distraction in Block list. By default existing v1 distractions always require a task. Enable one or more conditions: weekly time window (including overnight), daily allowed launches, daily estimated minutes, or location inside/outside a saved radius. Any matching rule triggers the gate. Hard daily caps are enabled by default; turn them off if tasks should grant temporary access beyond the limits. Other rules allow task-earned reward windows. Counts reset at local midnight.
 
-<<<<<<< main
 Location: use current location or enter coordinates manually, plus radius. HTTPS and browser permission are required. When a location check is needed, tap Open again after the check completes. Unknown or uncertain location triggers the gate. No background tracking. Use Settings to refresh or retry location.
-=======
-## Core flow
-- Add alternatives in Tasks: link, Android deep link, local PDF, or offline task. Choose self-confirmation or a minimum timer plus confirmation.
-- Add distractions in Block list. Choose their individual reward duration.
-- Tap Open on a distraction in Today, or use Try the blocking screen. Start an alternative and open its resource. Return and confirm completion (after the minimum timer if applicable).
-- Open the distraction during the reward window. A subsequent launch from Redirect after expiry requires another task.
-- Activity records self-confirmed completions. Settings can export/import metadata; PDF bytes are excluded and must be reattached after import.
->>>>>>> origin/main
 
 Usage: each launch via Redirect starts an elapsed-time session. Tap Stop on Today upon returning. Launching another distraction stops the previous session. These are estimates, not active app time; launches and usage outside Redirect are invisible. A hard cap applies at the next launch, not by closing an external app.
 
